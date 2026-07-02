@@ -1,0 +1,7 @@
+# Static source files (PDFs, source images)
+Static/pdf files/
+Static/images/stpc-trans-logo.png
+
+# OS files
+Thumbs.db
+.DS_Store
