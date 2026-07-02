@@ -142,6 +142,7 @@
     }
     function formatNumber(el, num) {
       if (el.getAttribute('data-format') === 'year') return num;
+      if (el.getAttribute('data-format') === 'plus') return num + '+';
       if (num >= 1000) return num.toLocaleString() + '+';
       return num;
     }
